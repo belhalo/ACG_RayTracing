@@ -19,14 +19,12 @@ public:
     bool rayIntersectP(const Ray &ray) const;
     std::string toString() const;
 
-
     Vector3D normal;
     Vector3D corner;
     Vector3D v1;
     Vector3D v2;
 
     Vector3D    w;//constant for a given quadrilateral
-
 };
 
 std::ostream& operator<<(std::ostream &out, const Square &s);
